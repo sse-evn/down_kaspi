@@ -1,0 +1,1527 @@
+<!DOCTYPE html><html data-page="" data-personal="False|{&quot;userId&quot;:null,&quot;kStat&quot;:null}|{&quot;section&quot;:&quot;\u0413\u043B\u0430\u0432\u043D\u0430\u044F&quot;,&quot;regionId&quot;:18,&quot;region&quot;:&quot;\u0410\u043B\u043C\u0430\u0442\u044B&quot;,&quot;type&quot;:&quot;mobile&quot;,&quot;environment&quot;:&quot;production&quot;,&quot;appInfo&quot;:&quot;1.1.3&quot;,&quot;isMobileApp&quot;:false}|12|False|False|True"><!--balance-mnpg04--><head>
+    <title>Kaspi.kz – Магазин, Платежи, Мой Банк, Переводы, Red, Бонусы, Гид</title>
+    <meta name="description" content="Покупка в кредит, Оплата услуг, Kaspi Bank, Переводы и конвертация, Выписка по картам, Остаток на депозите, Задолженность по кредиту, Покупки в рассрочку, Kaspi Бонус, Вопросы и ответы">
+    <meta name="keywords" content="Kaspi Bank, Каспи Банк, Kaspi Магазин, рассрочка, покупки, Платежи, Kaspi Кошелек, Kaspi Бонус, Кредит Наличными, Товарный кредит, Kaspi Депозит, Кредитная Карта, Kaspi Gold, Kaspi Red, Kaspi Гид, вопросы, ответы">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="google-site-verification" content="rzQ8Gv16_5Hi70sR6xxgdZN608oaou7Jdl3hpDHqMJs">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <meta property="og:image" content="https://kaspi.kz/favicon/og_image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon for Browser Tabs (Transparent) -->
+    <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="/favicon/favicon-16x16.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="/favicon/favicon-64x64.png" type="image/png" sizes="64x64">
+    <link rel="icon" href="/favicon/favicon-96x96.png" type="image/png" sizes="96x96">
+    <link rel="icon" href="/favicon/favicon-128x128.png" type="image/png" sizes="128x128">
+
+    <!-- SVG Favicon (Modern Browsers) -->
+    <link rel="icon" href="/favicon/favicon.svg" type="image/svg+xml">
+
+    <!-- Alternative High-Resolution Favicon -->
+    <link rel="icon" href="/favicon/favicon-192x192.png" type="image/png" sizes="192x192">
+    <link rel="icon" href="/favicon/favicon-512x512.png" type="image/png" sizes="512x512">
+
+    <!-- Favicon for Search Engines (White Background) -->
+    <link rel="icon" href="/favicon/search-favicon-48x48.png" type="image/png" sizes="48x48">
+
+    <!-- Apple Touch Icons (For iOS, with White Background) -->
+    <link rel="apple-touch-icon" href="/favicon/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-touch-icon-120x120.png">
+
+
+    <!-- Web App Manifest (for Android and PWA) -->
+    <link rel="manifest" href="/favicon/site.webmanifest.json">
+    <link rel="preload" href="https://static.cdn-kaspi.kz/kkz/shared/fonts/Roboto-Regular.woff" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://static.cdn-kaspi.kz/kkz/shared/fonts/Roboto-Bold.woff" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://static.cdn-kaspi.kz/kkz/shared/fonts/Roboto-Medium.woff" as="font" type="font/woff2" crossorigin="anonymous">
+
+    <script type="text/javascript" charset="utf-8" async="" src="https://static.cdn-kaspi.kz/kkz/shared/scripts/segmentsream/sdk.js"></script><script type="text/javascript" charset="utf-8" async="" src="https://static.cdn-kaspi.kz/kkz/shared/scripts/segmentsream/init.js"></script><script>
+        function onError() {
+            if (window.document.readyState === 'loading') {
+                window.document.addEventListener('DOMContentLoaded', function () {
+                    displayError()
+                })
+            } else {
+                displayError()
+            }
+        }
+
+        function displayError() {
+            var body = document.getElementsByTagName('body')[0]
+            var element = document.getElementById('error-fetching-resources')
+            body.style.height = '100%'
+            body.style.overflow = 'hidden'
+            element.style.display = 'table'
+            logError()
+        }
+
+
+        function logError() {
+            if (window.mobapp != null && window.mobapp != "undefined") {
+                if (typeof window.mobapp.logServerEvents === "function"
+                    && typeof window.mobapp.getAppInfo === "function") {
+                    mobapp.getAppInfo('pushEventError');
+                }
+            }
+        }
+
+        function pushEventError(data) {
+            if (!data) return;
+
+            var appInfo = JSON.parse(data);
+            var event = {
+                events: [{
+                    name: "main",
+                    sendType: "always",
+                    parameters: {
+                        sys: "MAINPAGE",
+                        evt: "ERROR",
+                        time: new Date().toISOString(),
+                        errType: "ResourcesNotLoaded",
+                        ver: 1,
+                        pType: appInfo.os,
+                        pVer: appInfo.platformVersion,
+                        appVer: appInfo.appVersion,
+                        appId: appInfo.installId,
+                        devId: appInfo.deviceId
+                    }
+                }
+                ]
+            }
+
+            console.log(JSON.stringify(event));
+            mobapp.logServerEvents(JSON.stringify(event));
+        }
+
+
+    </script>
+
+    <style>
+        .error-no-internet__backdrop {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 99999;
+            width: 100%;
+            height: 100%;
+            background: #fff;
+        }
+
+        .error-no-internet__container {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            color: #4a4a4a
+        }
+
+        .error-no-internet__button {
+            display: inline-block;
+            width: 80%;
+            background: none;
+            outline: none;
+            border: 1px solid #DC3545;
+            color: #DC3545;
+            border-radius: 3px;
+            padding: 5px 0;
+        }
+
+            .error-no-internet__button:active {
+                background: #DC3545;
+                color: #f0f0f0;
+            }
+    </style>
+
+
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="preconnect" href="//cdn-kaspi.kz/kkz/main/">
+    <link rel="dns-prefetch" href="//google-analytics.com/">
+    <link rel="dns-prefetch" href="//cdn.driveback.ru/">
+    <link rel="dns-prefetch" href="//track.ddmanager.ru/">
+
+    
+    <link rel="stylesheet" onerror="onError()" href="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/bundles/css/start/start_mobile.2ff1464dce38efa9.css">
+    <link rel="stylesheet" href="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/bundles/css/start/static/shop_mobile_new.241a0aea09ff21cf.css">
+
+
+    <script onerror="onError()" src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/bundles/js/libraries.abeb0da4a55d97ca.js"></script>
+    <script src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/bundles/js/async_mobile.3c19f4155d24506a.js" onerror="onError()" defer=""></script>
+    <script src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/bundles/js/mobile_log_events.45ca8d6e590755da.js" defer=""></script>
+
+
+    
+    <script onerror="onError()" src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/bundles/js/start_mobile.32a818a2e88c7f35.js"></script>
+    <script src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/bundles/js/web_mobile.6305a2db060e8338.js"></script>
+    
+<script src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/bundles/js/sentry.d633289c22f5c6c7.js"></script>
+</head>
+
+<body class="body body--mobile
+      body--web  
+        
+      body--popups" data-locale="ru-RU">
+
+    <div id="error-fetching-resources" class="error-no-internet__backdrop">
+    <div class="error-no-internet__container">
+        <img src="data:image/png;base64,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" alt="Нет связи" width="100" height="100">
+        <p>Нет связи<br>Проверьте интернет соединение</p>
+        <button class="error-no-internet__button" onclick="location.reload(); return false;">Попробовать ещё раз</button>
+    </div>
+</div>
+    <p class="pers-info" hidden=""></p>
+
+        
+
+<header id="headerAdapt" class="headerAdapt__wrapper headerAdapt__wrapper--withBorder">
+    <div class="headerAdapt__title">Kaspi.kz</div>
+</header>
+        
+<div class="tabs">
+    <a class="tab _main _active" href="/">
+        <span class="tab__icon"></span>
+        <span class="tab__title">Главная</span>
+    </a>
+    <div class="tab _qr" data-alert-id="qr">
+        <span class="tab__icon"></span>
+        <span class="tab__title">Kaspi QR</span>
+    </div>
+    <div class="tab _message" data-alert-id="message">
+        <span class="tab__icon"></span>
+        <span class="tab__title">Сообщения</span>
+    </div>
+    <a class="tab _services " href="/start/services">
+        <span class="tab__icon"></span>
+        <span class="tab__title">Сервисы</span>
+    </a>
+</div>
+
+    <main id="main" class="main__wrapper">
+  
+        
+
+
+
+
+
+
+
+
+
+
+<div class="popup" data-popup-id="Smart_banner_app_1" data-id="1">
+    <a href="https://dz3a4.app.goo.gl/pVzn" class="popup__inner">
+        <div class="popup__img"></div>
+        <div class="popup__content">
+            <div class="popup__title">
+                Kaspi.kz
+            </div>
+            <div class="popup__text">
+                Открыть в Приложении Kaspi.kz
+            </div>
+        </div>
+        <div class="popup__button">Открыть</div>
+    </a>
+</div>
+
+<link rel="stylesheet" href="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/bundles/css/popups/p_1.f023428b2c5e5e66.css">
+<div class="grid__container">
+    <div class="grid__row">
+        <section class="grid__full-24 main__inner">
+
+
+                    
+
+
+    <section id="startMainBannerAdapt" class="startSection__wrapper startMainBannerAdapt__wrapper startMainBannerAdapt__wrapper--new startMainBannerAdapt__wrapper--promo swiper-container startMainBannerAdapt__wrapper--empty swiper-container-initialized swiper-container-horizontal swiper-container-android" data-rotation-enabled="false">
+
+        <div id="mainBanners" class="startMainBannerAdapt__inner swiper-wrapper">
+        </div>
+
+        <div class="startMainBannerAdapt__pagination"></div>
+        <input type="hidden" class="paramApproved" data-name="isApproved">
+    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></section>
+
+
+                    
+
+
+
+
+<section id="ourProducts" class="startSection__wrapper ourProducts__wrapper promo">
+    <div class="startSection__swiper swiper-container grid__row">
+        <ul class="ourProducts__items swiper-wrapper">
+
+                <li class="grid__full-4 ourProducts__item ourProducts__item--qr " data-alert-id="qr">
+                    <div class="ourProducts__link" data-ddl-label="Qr">
+                        <span class="PromoBadges__toggle _second" style="display: none;"></span>
+                        <span class="ourProducts__linkIcon "></span>
+                        Kaspi QR
+                    </div>
+                </li>
+                <li class="grid__full-4 ourProducts__item ourProducts__item--myBank" data-alert-id="myBank">
+                    <div class="ourProducts__link" data-ddl-label="MyBank">
+                        <span class="ourProducts__linkIcon"></span>
+                        Мой Банк
+                    </div>
+                </li>
+                <li class="grid__full-4 ourProducts__item ourProducts__item--pay" data-alert-id="payments">
+                    <div class="ourProducts__link" data-ddl-label="Pay">
+                        <span class="ourProducts__linkIcon"></span>
+                        Платежи
+                    </div>
+                </li>
+                <li class="grid__full-4 ourProducts__item ourProducts__item--transfers" data-alert-id="transfers">
+                    <div class="ourProducts__link" data-ddl-label="Transfers">
+                        <span class="ourProducts__linkIcon"></span>
+                        Переводы
+                    </div>
+                </li>
+                <li class="grid__full-4 ourProducts__item ourProducts__item--shop">
+                    <a class="ourProducts__link" href="/shop/?source=kaspikz&amp;ref=startOurProductsShop&amp;startedFrom=main_grid&amp;ap-product=shop&amp;a=1" data-ddl-label="Shop">
+                        <span class="PromoBadges__toggle _second" style="display: none;"></span>
+                        <span class="ourProducts__linkIcon"></span>
+                        Магазин
+                    </a>
+                </li>
+                <li class="adapt grid__full-4 ourProducts__item swiper-slide ourProducts__item--travel" data-alert-id="travel">
+                    <div class="ourProducts__link" data-ddl-label="Travel">
+                        <span class="ourProducts__linkIcon"></span>
+                        <span class="PromoBadges__toggle _second" style="display: none;"></span>
+                        Travel
+                    </div>
+                </li>
+                <li class="grid__full-4 ourProducts__item ourProducts__item--publicServices" data-alert-id="publicService">
+                    <div class="ourProducts__link" data-ddl-label="Red">
+                        <span class="ourProducts__linkIcon"></span>
+                        Госуслуги
+                    </div>
+                </li>
+                <li class="grid__full-4 ourProducts__item swiper-slide ourProducts__item--ad" data-counter-id="market">
+                    <a class="ourProducts__link" href="https://obyavleniya.kaspi.kz/?startedFrom=main_grid&amp;ap-product=ad&amp;utm_source=kaspi_superapp&amp;utm_medium=direct&amp;utm_campaign=main_grid" data-ddl-label="Ad">
+                        <span class="ourProducts__linkIcon"></span>
+                        <span class="ourProducts__badge-count" style="display: none"></span>
+                        Объявления
+                    </a>
+                </li>
+                
+
+
+
+<div class="alert-open-app__text-wrapper" data-bind-id="search">
+    <div class="alert-open-app__title">
+                Воспользоваться поиском по сервисам и продуктам вы можете в мобильном приложении Kaspi.kz
+
+    </div>
+    <div class="alert-open-app__link">https://dz3a4.app.goo.gl/pVzn</div>
+</div>
+<div class="alert-open-app__text-wrapper" data-bind-id="ads">
+    <div class="alert-open-app__title">
+                Подать объявление и искать товары и услуги вы можете в мобильном приложении Kaspi.kz
+
+    </div>
+    <div class="alert-open-app__link">https://dz3a4.app.goo.gl/pVzn</div>
+</div>
+<div class="alert-open-app__text-wrapper" data-bind-id="magnum">
+    <div class="alert-open-app__title">
+                Купить продукты питания в Magnum с бесплатной доставкой вы можете в мобильном приложении Kaspi.kz
+
+    </div>
+    <div class="alert-open-app__link">https://dz3a4.app.goo.gl/download</div>
+</div>
+<div class="alert-open-app__text-wrapper" data-bind-id="travel">
+    <div class="alert-open-app__title">
+                Купить авиа и ЖД билеты Вы можете в мобильном приложении Kaspi.kz.
+
+    </div>
+    <div class="alert-open-app__link">https://dz3a4.app.goo.gl/fSPB</div>
+</div>
+<div class="alert-open-app__text-wrapper" data-bind-id="myBank">
+    <div class="alert-open-app__title">
+                 Мой Банк доступен в мобильном приложении Kaspi.kz
+
+    </div>
+    <div class="alert-open-app__link">https://dz3a4.app.goo.gl/cnNS</div>
+</div>
+<div class="alert-open-app__text-wrapper" data-bind-id="payments">
+    <div class="alert-open-app__title">
+                Оплатить услуги Вы можете в мобильном приложении Kaspi.kz.
+
+    </div>
+    <div class="alert-open-app__link">https://dz3a4.app.goo.gl/HZNb</div>
+</div>
+<div class="alert-open-app__text-wrapper" data-bind-id="transfers">
+    <div class="alert-open-app__title">
+                     Сделать перевод Вы можете в мобильном приложении Kaspi.kz.
+
+    </div>
+    <div class="alert-open-app__link">https://dz3a4.app.goo.gl/zA6F</div>
+</div>
+<div class="alert-open-app__text-wrapper" data-bind-id="promo">
+    <div class="alert-open-app__title">
+                 Узнать об акциях Вы можете в мобильном приложении Kaspi.kz.
+
+    </div>
+    <div class="alert-open-app__link">https://dz3a4.app.goo.gl/Xrw7</div>
+</div>
+<div class="alert-open-app__text-wrapper" data-bind-id="qr">
+    <div class="alert-open-app__title">
+                Kaspi QR доступен в мобильном приложении Kaspi.kz
+
+    </div>
+    <div class="alert-open-app__link">https://dz3a4.app.goo.gl/REXj</div>
+</div>
+<div class="alert-open-app__text-wrapper" data-bind-id="publicService">
+    <div class="alert-open-app__title">
+                Оформить Госуслуги Вы можете в мобильном приложении Kaspi.kz
+
+    </div>
+    <div class="alert-open-app__link">https://dz3a4.app.goo.gl/QxvW</div>
+</div>
+<div class="alert-open-app__text-wrapper" data-bind-id="message">
+    <div class="alert-open-app__title">
+                Сообщения доступны в мобильном приложении Kaspi.kz
+
+    </div>
+    <div class="alert-open-app__link">https://dz3a4.app.goo.gl/DgSb</div>
+</div>
+<div class="alert-open-app__text-wrapper" data-bind-id="maps">
+    <div class="alert-open-app__title">
+                  Kaspi Maps доступен в мобильном приложении Kaspi.kz
+
+    </div>
+    <div class="alert-open-app__link">https://dz3a4.app.goo.gl/pEHp</div>
+</div>
+        </ul>
+    </div>
+</section>
+
+<script src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/bundles/js/mobile_app_services.f24726f52e65ea09.js"></script>
+
+<section class="commonAlert__overflow" id="qrError">
+    <div class="commonAlert__wrapper">
+        <input type="button" class="commonAlert__close" role="button" tabindex="0" value="">
+        <section class="commonAlert__message commonAlert__message--error">
+            <div class="commonAlert__title">Извините, произошла ошибка.</div>
+            <div class="commonAlert__text">Попробуйте чуть позже.</div>
+        </section>
+        <input type="button" class="commonAlert__button commonAlert__buttonClose" role="button" tabindex="0" value="OK">
+    </div>
+</section>
+
+                    <section class="startSection__wrapper" id="block_MARKET" data-name="MARKET" data-block-ddl-name="App services" data-lazy="false" data-block-data="">
+                        
+
+    <div class="app-services _magnum" data-alert-id="magnum" href="https://kaspi.kz/shop/l/supermarket-magnum/?source=kaspikz&amp;ref=MainButton&amp;startedFrom=main&amp;ap-product=shop" data-campaing-name="11" data-campaign-id="51">
+        <div class="app-services__icon-wrapper">
+            <img src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/appServices/magnum.png" class="app-services__icon">
+            <span class="app-services__badge-count" style="display: none"></span>
+        </div>
+        
+        <div class="app-services__wrapper">
+            <div class="app-services__title">Magnum</div>
+            <div class="app-services__text"> Продукты питания с бесплатной доставкой</div>
+        </div>
+        <div class="app-services__arrow"></div>
+    </div>
+
+
+
+                    </section>
+                    <section class="startSection__wrapper" id="block_BANK" data-name="BANK" data-block-ddl-name="Online Products" data-lazy="false" data-block-data="">
+                        
+
+
+<section id="onlineCheckoutSection" class="startSection__wrapper onlineCheckout__wrapper">
+    <div class="startSection__subtitle"></div>
+    <div class="onlineCheckout__items">
+            <div class="onlineCheckout__item">
+                <a class="onlineCheckout__item__inner" href="https://kaspi.kz/bank/bpm/kaspipay?startedFrom=main&amp;ap-product=credit_for_purchase&amp;ae=auth-start,auth-complete" data-ddl-view="true" data-ddl-name="credit_for_purchase" data-type="Pay">
+                    <img class="onlineCheckout__item__img" src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/myBank/Kredit.png" alt="">
+                    <div class="onlineCheckout__itemText">
+                        <div class="onlineCheckout__itemTitle">
+                            Кредит на Покупки
+                        </div>
+                            <p class="onlineCheckout__innerText">Кредит или рассрочка 0%</p>
+                    </div>
+                    <div class="onlineCheckout__itemAlertSettings">
+                        <span class="onlineCheckout__itemAppAlertTitle">Оформить Кредит на Покупки Вы можете в мобильном приложении Kaspi.kz</span>
+                        <span class="onlineCheckout__itemAppLink">https://dz3a4.app.goo.gl/AmRZ</span>
+                    </div>
+                </a>
+            </div>
+            <div class="onlineCheckout__item">
+                <a class="onlineCheckout__item__inner" href="https://kaspi.kz/bank/bpm/products/deposit?startedFrom=main&amp;ap-product=deposit&amp;ae=auth-start,auth-complete&amp;update=true" data-ddl-view="true" data-ddl-name="deposit" data-type="Deposit">
+                    <img class="onlineCheckout__item__img" src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/myBank/DepositNew.png" alt="">
+                    <div class="onlineCheckout__itemText">
+                        <div class="onlineCheckout__itemTitle">
+                            Kaspi Депозит
+                        </div>
+                            <p class="onlineCheckout__innerText">Эффективная ставка 15% </p>
+                    </div>
+                    <div class="onlineCheckout__itemAlertSettings">
+                        <span class="onlineCheckout__itemAppAlertTitle">Открыть Kaspi Депозит Вы можете в мобильном приложении Kaspi.kz</span>
+                        <span class="onlineCheckout__itemAppLink">https://dz3a4.app.goo.gl/Dhjt</span>
+                    </div>
+                </a>
+            </div>
+            <div class="onlineCheckout__item">
+                <a class="onlineCheckout__item__inner" href="https://kaspi.kz/bank/bpm/loan?startedFrom=main&amp;ap-product=cash_credit&amp;ae=auth-start,auth-complete" data-ddl-view="true" data-ddl-name="cash_credit" data-type="Loan">
+                    <img class="onlineCheckout__item__img" src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/myBank/KN.png" alt="">
+                    <div class="onlineCheckout__itemText">
+                        <div class="onlineCheckout__itemTitle">
+                            Кредит Наличными
+                        </div>
+                            <p class="onlineCheckout__innerText">До 1 млн тенге</p>
+                    </div>
+                    <div class="onlineCheckout__itemAlertSettings">
+                        <span class="onlineCheckout__itemAppAlertTitle">Кредит Наличными доступен в мобильном приложении Kaspi.kz</span>
+                        <span class="onlineCheckout__itemAppLink">https://dz3a4.app.goo.gl/7bHV</span>
+                    </div>
+                </a>
+            </div>
+            <div class="onlineCheckout__item">
+                <a class="onlineCheckout__item__inner" href="https://kaspi.kz/bank/bpm/red?startedFrom=main&amp;ap-product=red&amp;ae=auth-start,auth-complete" data-ddl-view="true" data-ddl-name="red" data-type="Red">
+                    <img class="onlineCheckout__item__img" src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/myBank/Red.png" alt="">
+                    <div class="onlineCheckout__itemText">
+                        <div class="onlineCheckout__itemTitle">
+                            Kaspi Red
+                        </div>
+                            <p class="onlineCheckout__innerText">Рассрочка 0% </p>
+                    </div>
+                    <div class="onlineCheckout__itemAlertSettings">
+                        <span class="onlineCheckout__itemAppAlertTitle">Открыть Kaspi Red Вы можете в мобильном приложении Kaspi.kz</span>
+                        <span class="onlineCheckout__itemAppLink">https://dz3a4.app.goo.gl/ZM3h</span>
+                    </div>
+                </a>
+            </div>
+    </div>
+    <div id="BankAppAlert" class="onlineAppLink onlineAppLink__overflow">
+        <div class="onlineAppLink__wrapper">
+            <img class="onlineAppLink__logo" src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/shared/logo-a.png" alt="">
+            <div id="BankAppAlertTitle" class="onlineAppLink__title"></div>
+            <a id="BankAppAlertLink" href="#" class="onlineAppLink__link">Открыть приложение</a>
+            <div class="onlineAppLink__button">Отмена</div>
+        </div>
+    </div>
+</section>
+
+                    </section>
+                    <section class="startSection__wrapper" id="block_SHOP" data-name="SHOP" data-block-ddl-name="Shop" data-lazy="false" data-block-data="" data-enabled="True">
+                        
+
+
+<script>
+    function onErrorLazyLoad(element) {
+        if ($(element).parent().hasClass("_bgwhite")) {
+            $(element).parent().removeClass("_bgwhite");
+            $(element).hide();
+        }
+    }
+</script>
+
+<div id="shopBlock">
+        <section class="shopBlock__section LIST6 viewed" objectid="CATEGORY_BLOCK_PHONE_GDJT" data-logic-id="" data-block-type="LIST6">
+            
+                <header class="shopBlock__header">
+                    
+                    
+                    <p class="shopBlock__header-text">Телефоны и гаджеты</p>
+                    
+                </header>
+            <div class="shopBlock__container">
+
+                    <a href="https://kaspi.kz/shop/c/smartphones/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_PHONE_GDJT" data-product-id="00003" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image _bgwhite" data-src="https://cdn-kaspi.kz/kkz/pcm/start/banners/smartphones_new_main.png">
+                         <img src="https://cdn-kaspi.kz/kkz/pcm/start/banners/smartphones_new_main.png" onerror="onErrorLazyLoad(this)"></figure>
+
+                            <div class="shopBlock__title">Смартфоны</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/smart%20watches/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_PHONE_GDJT" data-product-id="00044" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image _bgwhite" data-src="https://cdn-kaspi.kz/kkz/pcm/start/banners/smart_watches_new_main.png">
+                         <img src="https://cdn-kaspi.kz/kkz/pcm/start/banners/smart_watches_new_main.png" onerror="onErrorLazyLoad(this)"></figure>
+
+                            <div class="shopBlock__title">Смарт-часы</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/wearables/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_PHONE_GDJT" data-product-id="00054" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image _bgwhite" data-src="https://cdn-kaspi.kz/kkz/pcm/start/banners/fit_bras_new_main.png">
+                         <img src="https://cdn-kaspi.kz/kkz/pcm/start/banners/fit_bras_new_main.png" onerror="onErrorLazyLoad(this)"></figure>
+
+                            <div class="shopBlock__title">Фитнес-браслеты</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/phone%20accessories/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_PHONE_GDJT" data-product-id="00570" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://cdn-kaspi.kz/kkz/pcm/start/banners/acc_for_phones_new_main.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Аксессуары для телефонов</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/ebooks/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_PHONE_GDJT" data-product-id="00056" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://cdn-kaspi.kz/kkz/pcm/start/banners/ebook_new_main.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Электронные книги</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/wireless%20chargers/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_PHONE_GDJT" data-product-id="02811" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/tel/img-06_43592.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Зарядные устройства</div>
+                        
+
+
+
+
+                    </a>
+
+            </div>
+
+
+        </section>
+        <section class="shopBlock__section LIST6 " objectid="CATEGORY_BLOCK_BT_EL" data-logic-id="" data-block-type="LIST6">
+            
+                <header class="shopBlock__header">
+                    
+                    
+                    <p class="shopBlock__header-text">Бытовая техника</p>
+                    
+                </header>
+            <div class="shopBlock__container">
+
+                    <a href="https://kaspi.kz/shop/c/washers/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_BT_EL" data-product-id="00035" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://cdn-kaspi.kz/kkz/pcm/start/banners/wash_mach_new_main.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Стиральные машины</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/refrigerators/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_BT_EL" data-product-id="00025" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://cdn-kaspi.kz/kkz/pcm/start/banners/fridge_new_main.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Холодильники</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/vacuum%20cleaners/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_BT_EL" data-product-id="00036" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://cdn-kaspi.kz/kkz/pcm/start/banners/hoover_new_main.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Пылесосы</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/food%20processors%20and%20grinders/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_BT_EL" data-product-id="03512" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://cdn-kaspi.kz/kkz/pcm/start/banners/for_kitchen_new_main.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Кухонные комбайны и мясорубки</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/freezers/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_BT_EL" data-product-id="00026" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://cdn-kaspi.kz/kkz/pcm/start/banners/icebox_new_main.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Морозильники</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/climate%20equipment/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_BT_EL" data-product-id="00039" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://cdn-kaspi.kz/kkz/pcm/start/banners/shutterstock_206942272%201_climate_main.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Климатическая техника</div>
+                        
+
+
+
+
+                    </a>
+
+            </div>
+
+
+        </section>
+        <section class="shopBlock__section LIST6 " objectid="CATEGORY_BLOCK_COMP" data-logic-id="" data-block-type="LIST6">
+            
+                <header class="shopBlock__header">
+                    
+                    
+                    <p class="shopBlock__header-text">Компьютеры</p>
+                    
+                </header>
+            <div class="shopBlock__container">
+
+                    <a href="https://kaspi.kz/shop/c/notebooks%20and%20accessories/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_COMP" data-product-id="00582" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/comp/img-01_40622.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Ноутбуки и аксессуары</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/tablets%20and%20accessories/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_COMP" data-product-id="01326" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/comp/img-02_61446.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Планшеты и аксессуары</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/monitors/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_COMP" data-product-id="00011" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/comp/img-03_52639.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Мониторы</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/peripherals/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_COMP" data-product-id="00008" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/comp/img-04_53647.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Периферия</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/freezers/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_COMP" data-product-id="00066" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/comp/img-05_33267.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Комплектующие</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/computers/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_COMP" data-product-id="00005" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/comp/img-06_52482.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Компьютеры</div>
+                        
+
+
+
+
+                    </a>
+
+            </div>
+
+
+        </section>
+        <section class="shopBlock__section LIST6 " objectid="CATEGORY_BLOCK_TV_AUD_VID" data-logic-id="" data-block-type="LIST6">
+            
+                <header class="shopBlock__header">
+                    
+                    
+                    <p class="shopBlock__header-text">ТВ, Аудио, Видео</p>
+                    
+                </header>
+            <div class="shopBlock__container">
+
+                    <a href="https://kaspi.kz/shop/c/tvs/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_TV_AUD_VID" data-product-id="05374" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://cdn-kaspi.kz/kkz/pcm/start/banners/TV_new_main.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Телевизоры</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/audio/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_TV_AUD_VID" data-product-id="00130" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://cdn-kaspi.kz/kkz/pcm/start/banners/Audio_new_main.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Аудиотехника</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/entertainment/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_TV_AUD_VID" data-product-id="00131" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/tv/img-03_49874.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Развлечения</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/headphones/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_TV_AUD_VID" data-product-id="05375" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/tv/img-04_12503.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Наушники и гарнитуры</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/photo_video/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_TV_AUD_VID" data-product-id="00018" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/tv/img-05_24763.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Фото- и видеокамеры</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/video/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_TV_AUD_VID" data-product-id="00127" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://cdn-kaspi.kz/kkz/pcm/start/banners/video_equipment_new_main.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Видеотехника</div>
+                        
+
+
+
+
+                    </a>
+
+            </div>
+
+
+        </section>
+        <section class="shopBlock__section LIST6 " objectid="CATEGORY_BLOCK_MEBEL" data-logic-id="" data-block-type="LIST6">
+            
+                <header class="shopBlock__header">
+                    
+                    
+                    <p class="shopBlock__header-text">Мебель</p>
+                    
+                </header>
+            <div class="shopBlock__container">
+
+                    <a href="https://kaspi.kz/shop/c/kitchen/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_MEBEL" data-product-id="00735" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/meb/img-01_39351.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Кухня</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/bedroom/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_MEBEL" data-product-id="00241" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/meb/img-02_49094.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Спальня</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/children%20room/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_MEBEL" data-product-id="02509" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/meb/img-03_56042.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Детская</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/living%20room/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_MEBEL" data-product-id="00463" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/meb/img-04_45821.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Гостиная</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/bathroom/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_MEBEL" data-product-id="01056" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/meb/img-05_58336.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Ванная</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/office/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_MEBEL" data-product-id="05349" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/meb/img-06_55519.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Офис</div>
+                        
+
+
+
+
+                    </a>
+
+            </div>
+
+
+        </section>
+        <section class="shopBlock__section LIST6 " objectid="CATEGORY_BLOCK_STROY" data-logic-id="" data-block-type="LIST6">
+            
+                <header class="shopBlock__header">
+                    
+                    
+                    <p class="shopBlock__header-text">Строительство и ремонт</p>
+                    
+                </header>
+            <div class="shopBlock__container">
+
+                    <a href="https://kaspi.kz/shop/c/power%20tools/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_STROY" data-product-id="00600" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/str/img-01_73892.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Инструменты</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/construction%20equipment/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_STROY" data-product-id="01649" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/str/img-02_67027.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Строительное оборудование</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/plumbing/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_STROY" data-product-id="00244" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/str/img-03_46717.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Сантехника</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/security%20systems/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_STROY" data-product-id="01459" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/str/img-04_43950.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Системы безопасности</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/doors/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_STROY" data-product-id="03594" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/str/img-05_47667.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Двери</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/heating%20equipment/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_STROY" data-product-id="02341" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/str/img-06_46121.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Системы отопления</div>
+                        
+
+
+
+
+                    </a>
+
+            </div>
+
+
+        </section>
+        <section class="shopBlock__section LIST6 " objectid="CATEGORY_BLOCK_CAR_GOODS" data-logic-id="" data-block-type="LIST6">
+            
+                <header class="shopBlock__header">
+                    
+                    
+                    <p class="shopBlock__header-text">Автотовары</p>
+                    
+                </header>
+            <div class="shopBlock__container">
+
+                    <a href="https://kaspi.kz/shop/c/tires/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_CAR_GOODS" data-product-id="04884" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/car/img-01_63638.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Шины</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/rims/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_CAR_GOODS" data-product-id="00227" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/car/img-02_28737.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Комплекты дисков</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/car%20electronics/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_CAR_GOODS" data-product-id="00073" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/car/img-03_56880.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Автоэлектроника</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/car%20audio/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_CAR_GOODS" data-product-id="00080" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/car/img-04_59817.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Автоакустика</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/automotive%20equipments/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_CAR_GOODS" data-product-id="00991" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/car/img-05_71274.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Автомобильное оборудование</div>
+                        
+
+
+
+
+                    </a>
+                    <a href="https://kaspi.kz/shop/c/car%20accessories/?ref=defaultmainblock" class="shopBlock__card ddl_card ddl_card ddl_product ddl_product_link" data-list-id="pcm_subcategories_objectid=CATEGORY_BLOCK_CAR_GOODS" data-product-id="00911" data-category-id=""> 
+                       
+                        
+
+                         <figure class="shopBlock__image lazy" data-src="https://static.cdn-kaspi.kz/mrk/00001Dau/block23/car/img-06_57721.png">
+                         </figure>
+
+                            <div class="shopBlock__title">Автоаксессуары</div>
+                        
+
+
+
+
+                    </a>
+
+            </div>
+
+
+        </section>
+</div>
+
+
+<script>
+    if (lazyLoadHelper) {
+        lazyLoadHelper.init();
+    }
+</script>
+
+
+
+
+<section class="ks-section shopBlock__section" id="ks-categories" objectid="ks-categories" data-block-type="LIST_CATEGORY">
+    <header class="shopBlock__header">Магазин на Kaspi.kz</header>
+    <nav class="ks-nav">
+        <ul class="ks-nav__row">
+
+
+            <li class="ks-nav__item" id="Smartphonesandgadgets" data-category-id="00002">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00002" data-product-id="Smartphonesandgadgets" href="https://kaspi.kz/shop/c/smartphones%20and%20gadgets/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Phone.1.png"></div>
+                    <div class="ks-nav__item-title">Телефоны,<br>гаджеты</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="Computers" data-category-id="00005">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00005" data-product-id="Computers" href="https://kaspi.kz/shop/c/computers/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Computer.1.png"></div>
+                    <div class="ks-nav__item-title">Компьютеры</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="Childgoods">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00083" data-product-id="Childgoods" href="https://kaspi.kz/shop/c/child%20goods/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Kids.1.png"></div>
+                    <div class="ks-nav__item-title">Детские<br>товары</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="Beautycare">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00299" data-product-id="Beautycare" href="https://kaspi.kz/shop/c/beauty%20care/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Beauty.1.png"></div>
+                    <div class="ks-nav__item-title">Красота,<br>здоровье</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="Fashionaccessories">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00751" data-product-id="Fashionaccessories" href="https://kaspi.kz/shop/c/fashion%20accessories/all/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Accessories.1.png"></div>
+                    <div class="ks-nav__item-title">Аксессуары</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="JewelryandBijouterie">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00753" data-product-id="JewelryandBijouterie" href="https://kaspi.kz/shop/c/jewelry%20and%20bijouterie/all/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Jewerly.1.png"></div>
+                    <div class="ks-nav__item-title">Украшения</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="Home">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00240" data-product-id="Home" href="https://kaspi.kz/shop/c/home/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Home.1.png"></div>
+                    <div class="ks-nav__item-title">Товары для дома и дачи</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="Furniture">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00239" data-product-id="Furniture" href="https://kaspi.kz/shop/c/furniture/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Furniture.1.png"></div>
+                    <div class="ks-nav__item-title">Мебель</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="Constructionandrepair">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00754" data-product-id="Constructionandrepair" href="https://kaspi.kz/shop/c/construction%20and%20repair/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Hard.1.png"></div>
+                    <div class="ks-nav__item-title">Строительство, ремонт</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="Sportsandoutdoors">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00864" data-product-id="Sportsandoutdoors" href="https://kaspi.kz/shop/c/sports%20and%20outdoors/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Sport.1.png"></div>
+                    <div class="ks-nav__item-title">Спорт,<br>туризм</div>
+                </a>
+            </li>
+            <li class="ks-nav__drop-line"></li>
+                <li class="ks-nav__item" id="Food" data-category-id="00002">
+                    <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00002" data-product-id="Food" href="https://kaspi.kz/shop/l/supermarket-magnum/?source=kaspikz&amp;ref=MainMenu">
+                        <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Magnum.1.png"></div>
+                        <div class="ks-nav__item-title">Magnum</div>
+                    </a>
+                </li>
+            <li class="ks-nav__item" id="Pharmacy">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00012" data-product-id="Pharmacy" href="https://kaspi.kz/shop/c/pharmacy/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Pharmacy.1.png"></div>
+                    <div class="ks-nav__item-title">Аптеки</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="TV_Audio">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00012" data-product-id="TV_Audio" href="https://kaspi.kz/shop/c/tv_audio/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/TV.1.png"></div>
+                    <div class="ks-nav__item-title">ТВ, Аудио,<br>Видео</div>&gt;
+                </a>
+            </li>
+            <li class="ks-nav__item" id="Homeequipment">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00034" data-product-id="Homeequipment" href="https://kaspi.kz/shop/c/home%20equipment/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Home-App.1.png"></div>
+                    <div class="ks-nav__item-title">Бытовая<br>техника</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="Cargoods">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00079" data-product-id="Cargoods" href="https://kaspi.kz/shop/c/car%20goods/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Avto.1.png"></div>
+                    <div class="ks-nav__item-title">Автотовары</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="Shoes" data-category-="00791">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-product-id="Shoes" data-category-="00791" href="https://kaspi.kz/shop/c/shoes/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Shoes.1.png"></div>
+                    <div class="ks-nav__item-title">Обувь</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="Fashion">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00933" data-product-id="Fashion" href="https://kaspi.kz/shop/c/fashion/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Clothes.1.png"></div>
+                    <div class="ks-nav__item-title">Одежда</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="Leisure">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="00147" data-product-id="Leisure" href="https://kaspi.kz/shop/c/leisure/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Hobby.1.png"></div>
+                    <div class="ks-nav__item-title">Досуг,<br>книги</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="Petgoods">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="01466" data-product-id="Petgoods" href="https://kaspi.kz/shop/c/pet%20goods/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Pets.1.png"></div>
+                    <div class="ks-nav__item-title">Товары для животных</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="Giftsandpartysupplies">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="02605" data-product-id="Giftsandpartysupplies" href="https://kaspi.kz/shop/c/gifts%20and%20party%20supplies/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Holidays.1.png"></div>
+                    <div class="ks-nav__item-title"> Подарки,&nbsp;товары<br>для праздников</div>
+                </a>
+            </li>
+            <li class="ks-nav__item" id="Officeandschoolsupplies">
+                <a class="ks-nav__item-link ddl_card ddl_product ddl_product_link" data-category-id="02062" data-product-id="Officeandschoolsupplies" href="https://kaspi.kz/shop/c/office%20and%20school%20supplies/?source=kaspikz">
+                    <div class="ks-nav__item-img lazy" data-src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/start/shop/Stat.1.png"></div>
+                    <div class="ks-nav__item-title">Канцелярские товары</div>
+                </a>
+            </li>
+        </ul>
+    </nav><a class="ks-link-more" href="https://kaspi.kz/shop/?source=kaspikz">Покупки онлайн по лучшим ценам</a>
+</section>
+
+
+
+
+<script src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/bundles/js/ddl_shop_pcm.91e60b5a21a42344.js" defer=""></script>                    </section>
+
+
+            
+
+        </section>
+    </div>
+</div>
+
+    </main>
+
+        
+
+
+<footer id="footer" class="footer__wrapper">
+    <div class="grid__container">
+        <div class="grid__row">
+            <div class="grid__full-24 footer__inner">
+            <div id="footerCopyright" class="footer__text">
+                <div class="footer__text">© 2012-2025 гг. АО «Kaspi Bank»,</div>
+
+                <a href="https://www.kaspibank.kz/news/file/122416118144.pdf" download="" target="_blank" class="footer__link">
+                    <br> Лицензия на проведение банковских и иных  <br> операций и деятельности на рынке ценных бумаг  <br>  №1.2.245/61 от 03.02.2020, выданная Агентством  <br> Республики Казахстан по регулированию и  <br>развитию финансового рынка <br>
+                </a>
+                <br>
+
+                <a href="https://job.kaspi.kz/" target="_blank" class="footer__link">Работа в Kaspi.kz</a>
+
+                <div class="footer__text">
+                    <a href="https://www.kaspibank.kz?s=kaspi" class="footer__link">Корпоративный сайт</a>
+                </div>
+
+                <a href="https://kaspi.kz/Terms" target="_blank" class="footer__link">Пользовательское соглашение.</a>
+
+
+                <div class="footerInvestors__wrapper _bottom">
+                    <a href="https://ir.kaspi.kz/" target="_blank" class="footerInvestors__link">Investor Relations</a>
+                        <div class="footerBusiness__wrapper">
+                            <a href="https://pay.kaspi.kz" target="_blank" class="footerBusiness__link">Kaspi Pay</a>
+                        </div>
+                </div>
+            </div>
+
+                <div id="footerSocials" class="footerSocials__wrapper">
+                    <div class="footerSocials__inner">
+                        <a href="https://www.facebook.com/Kaspi.kz" class="footerSocials__item footerSocials__item--fb" target="_blank" data-ddl-label="Facebook"><span></span></a>
+                        <a href="https://vk.com/kaspikz" class="footerSocials__item footerSocials__item--vk" target="_blank" data-ddl-label="Vk"><span></span></a>
+                        <a href="https://twitter.com/Kaspi_kz" class="footerSocials__item footerSocials__item--twt" target="_blank" data-ddl-label="Twitter"><span></span></a>
+                        <a href="https://www.instagram.com/kaspi.kz/" class="footerSocials__item footerSocials__item--insta" target="_blank" data-ddl-label="Instagram"><span></span></a>
+                        <a href="https://ok.ru/kaspi.kz" class="footerSocials__item footerSocials__item--ok" target="_blank" data-ddl-label="Ok"><span></span></a>
+                        <a href="https://youtube.com/kaspibank" class="footerSocials__item footerSocials__item--yt" target="_blank" data-ddl-label="Youtube"><span></span></a>
+                        <a href="https://t.me/kaspikz" class="footerSocials__item footerSocials__item--teleg" target="_blank" data-ddl-label="Telegram"><span></span></a>
+                    </div>
+                </div>
+
+                <div id="footerAPPs" class="footerAPPs__wrapper">
+                    <div class="footerAPPs__inner">
+                        <a class="footerAPPs__link footerAPPs__link--ios" href="https://itunes.apple.com/app/id1195076505"></a>
+                        <a class="footerAPPs__link footerAPPs__link--android" href="https://play.google.com/store/apps/details?id=kz.kaspi.mobile"></a>
+                        <a class="footerAPPs__link footerAPPs__link--huawei" href="https://appgallery.huawei.com/#/app/C102954329"></a>
+                    </div>
+                </div>
+
+
+                <div id="footerGuidesForAllProductsAndCall" class="footer__text">
+                    <div class="footerGuidesForAllProductsAndCall__inner">
+                        <a href="https://kaspi.kz/guide" target="_blank" class="footer__link">Гид по всем продуктам Kaspi.</a>
+                        <div class="footerCall__wrapper">
+                            <span class="footerCall__num">
+                                <span class="footerCall__num__icon"></span>
+                                9999
+                            </span>
+                            <span class="footerCall__text">Бесплатно <br> с мобильного</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        
+
+
+<nav id="kaspiMenuAdapt" class="kaspiMenu__wrapper">
+    <div class="kaspiMenu__inner">
+        <div class="kaspiMenu__items">
+            <div class="kaspiMenu__item" data-alert-id="qr" data-ddl-label="qr" data-sasresultid="100014">
+                <div class="kaspiMenu__icon">
+                </div>
+                <div>
+                    Kaspi QR
+                    <br>
+                    <span> Платите и получайте Бонусы</span>
+                </div>
+            </div>
+            <div class="kaspiMenu__item" data-alert-id="message" data-ddl-label="message" data-sasresultid="100014">Сообщения</div>
+            <a class="kaspiMenu__item kaspiMenu__item--active" href="/" data-ddl-label="Main">Главная Kaspi.kz</a>
+                <a class="kaspiMenu__item" href="https://kaspi.kz/shop/?source=kaspikz&amp;ref=tabShop" data-ddl-label="Shop">Магазин</a>
+
+            <div class="kaspiMenu__item" data-alert-id="travel" data-ddl-label="travel">Travel <br>
+                <span> Покупайте Авиа и ЖД билеты онлайн</span>
+            </div>
+            <div class="kaspiMenu__item" href="/pay/frequent?ref=startMenuAdapt" data-alert-id="payments" data-ddl-label="Pay" data-sasresultid="100014">Платежи</div>
+            <div class="kaspiMenu__item" href="/bank?ref=startMenuAdapt" data-alert-id="myBank" data-ddl-label="MyBank">Мой Банк <br>
+                <span> Red, Gold, Кредит, Депозит, Бонус</span>
+            </div>
+            <div class="kaspiMenu__item" href="/transfers/index?ref=startMenuAdapt" data-alert-id="transfers" data-ddl-label="Transfers">Переводы</div>
+            <div class="kaspiMenu__item" data-alert-id="promo" data-ddl-label="promo">Акции</div>
+            <div class="kaspiMenu__item" data-alert-id="publicService" data-ddl-label="publicService">Госуслуги</div>
+            <a class="kaspiMenu__item" href="/guide?ref=startMenuAdapt" data-ddl-label="Guide">Гид</a>
+            <div class="kaspiMenu__item" href="/maps?ref=startMenuAdapt" data-alert-id="maps">Kaspi Maps</div>
+            <div class="kaspiMenu__itemAppWrapper">
+                <div class="kaspiMenu__itemAppInner">
+                    <div class="kaspiMenu__itemAppTitle">Мобильное приложение</div>
+                        <a class="kaspiMenu__itemAppLink kaspiMenu__itemAppLink--android" href="https://dz3a4.app.goo.gl/download"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+        <section id="oldBrowserMessage" class="failureMessage__wrapper failureMessage__wrapper--oldBrowser">
+    <div class="grid__container">
+        <div class="grid__row">
+            <div class="grid__full-24">
+                <div class="failureMessage__close"></div>
+                <div class="failureMessage__inner">
+                    <div class="failureMessage__title">Внимание: для корректной работы сайта Вам необходимо обновить версию браузера, перейдя по <a href="https://browser-update.org/ru/update.html">ссылке</a>.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    
+    <script src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/bundles/js/end.79f1ab7476f3cfcf.js"></script>
+    <script src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/bundles/js/end_mobile.7781d44d7d13439e.js"></script>
+
+
+
+
+<div class="alert-open-app alert-open-app__overflow">
+    <div class="alert-open-app__wrapper">
+        <img class="alert-open-app__logo" src="https://static.cdn-kaspi.kz/kkz/mainmvc/reswp/img/shared/logo-a.png" alt="">
+        <div class="alert-open-app__title">
+        </div>
+        <a href="#" class="alert-open-app__link"> Открыть приложение</a>
+        <div class="alert-open-app__button">Отмена </div>
+    </div>
+</div></body></html>
