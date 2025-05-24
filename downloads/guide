@@ -1,0 +1,47 @@
+<html><body><script defer>(function () {
+    var MAX_SECONDS = 1.5;
+    var CHECK_PERIOD = 0.5;
+    var initialCookies = document.cookie;
+
+    /* Ссылка с новыми query */
+    function updateQueryStringParameter(uri, key, value) {
+        var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+        var separator = uri.indexOf('?') !== -1 ? "&" : "?";
+        if (uri.match(re)) {
+            return uri.replace(re, '$1' + key + "=" + value + '$2');
+        }
+        else {
+            return uri + separator + key + "=" + value;
+        }
+    }
+
+    /* Перейти в субдомен */
+    function goRedirect() {
+        window.location.href = updateQueryStringParameter(window.location.href, "hard", "true");
+    }
+
+    /*
+    * Рекурсивная функция по проверке
+    *
+    * Перенаправляет на субдомен если найдены куки либо истекло время
+    * */
+    function checkCookies(count = 1) {
+        console.log(count)
+        if (count >= MAX_SECONDS/CHECK_PERIOD) {
+            /* Время истекло */
+            goRedirect();
+        }
+        else if(document.cookie.includes("is_kb_mob_app") || document.cookie.includes("is_mobile_app")) {
+            /* Найдены куки */
+            goRedirect();
+        }
+        else {
+            /* Запускаем проверку заново */
+            setTimeout(function () {
+                checkCookies(count + 1);
+            }, CHECK_PERIOD * 1000);
+        }
+    }
+
+    checkCookies();
+})()</script></body></html>

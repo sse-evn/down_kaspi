@@ -1,0 +1,20 @@
+<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,viewport-fit=cover"/><meta http-equiv="Cache-Control" content="no-cache"/><link rel="icon" href="https://static.cdn-kaspi.kz/kkz/onlineproducts/bundles/mybank/prod/cashloan/v1/favicon.ico"><title>kn</title><script crossorigin="anonymous">window.onerror = (event, source, lineno, colno, error) => {
+      const isChrome = navigator.appVersion.match(/.*Chrome\/([0-9\.]+)/)
+      const version = isChrome ? isChrome[1] : ''
+
+      const log = { event, source, lineno, colno, error, chromeVersion: version, appVersion: navigator.appVersion, href: window.location.href, from: "Window onerror handler", errStack: error.stack }
+
+      const body = {
+        LogType: "ERROR",
+        ExtId: null,
+        Path: window.location.pathname,
+        Data: JSON.stringify(log)
+      }
+      fetch(`https://mybank.kaspi.kz/events/api/v1/CashLoan/Add-short`, {
+        method: 'POST',
+        body: JSON.stringify(body),
+        headers: {
+          'Content-type': 'application/json; charset=utf-8'
+        },
+      })
+    }</script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script defer="defer" type="module" src="https://static.cdn-kaspi.kz/kkz/onlineproducts/bundles/mybank/prod/cashloan/v1/chunk-vendors.9d1b9c02.js"></script><script defer="defer" type="module" src="https://static.cdn-kaspi.kz/kkz/onlineproducts/bundles/mybank/prod/cashloan/v1/app.9d1b9c02.js"></script><link href="https://static.cdn-kaspi.kz/kkz/onlineproducts/bundles/mybank/prod/cashloan/v1/css/chunk-vendors.fb95511e.css" rel="stylesheet"><link href="https://static.cdn-kaspi.kz/kkz/onlineproducts/bundles/mybank/prod/cashloan/v1/css/app.51572dbc.css" rel="stylesheet"><script defer="defer" src="https://static.cdn-kaspi.kz/kkz/onlineproducts/bundles/mybank/prod/cashloan/v1/chunk-vendors.16d44057.js" nomodule></script><script defer="defer" src="https://static.cdn-kaspi.kz/kkz/onlineproducts/bundles/mybank/prod/cashloan/v1/app.16d44057.js" nomodule></script></head><body><noscript><strong>We're sorry but kn doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><input hidden id="app_hash" value="ed9d76"/><div id="app"></div></body></html>

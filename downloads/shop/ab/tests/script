@@ -1,0 +1,120 @@
+
+    window.currentCodesArray = [];
+
+
+      currentCodesArray.push("car-parts")
+      currentCodesArray.push("paid-delivery")
+      currentCodesArray.push("pet-category-priority-merchant")
+      currentCodesArray.push("magnum-redesign-abc-test")
+      currentCodesArray.push("fast_express_slot")
+      currentCodesArray.push("imei-display-date")
+
+      try {
+        (function(params) {
+    !function(e,o){if("object"==typeof exports&&"object"==typeof module)module.exports=o();else if("function"==typeof define&&define.amd)define([],o);else{var t=o();for(var a in t)("object"==typeof exports?exports:e)[a]=t[a]}}(window,(()=>(window["6763e1f4ffc2e84d5b348499"]=function(e){var o;!function(e){e.CONTROL="control",e.GROUP_B="car-parts-enabled",e.GROUP_C="car-parts-enabled_2"}(o||(o={})),window.testUtils.catchBugsInSentry((function(e){var t="SN-2938";console.info("".concat(t," Car parts b2c - "),e);var a="stable"===e.codeVariant;console.info("".concat(t," initCodeVariant - "),e),e.codeVariant===o.GROUP_B||e.codeVariant===o.GROUP_C||a?window.localStorage.setItem("ks.ab.enableCarParts","true"):window.localStorage.removeItem("ks.ab.enableCarParts")}),e)},{})));;
+
+    window['6763e1f4ffc2e84d5b348499'](params);
+  })
+        ({
+          codeExperiment: "car-parts",
+          codeVariant: "stable",
+          pageType: "CATEGORY_4",
+          uiExperience: "MOBILE",
+          currentExperimentCodes: currentCodesArray,
+          currentEnvironment: "production"
+        })
+      }
+      catch (e) {
+        console.error("car-parts", e);
+      }
+      try {
+        (function(params) {
+    !function(o,n){if("object"==typeof exports&&"object"==typeof module)module.exports=n();else if("function"==typeof define&&define.amd)define([],n);else{var e=n();for(var t in e)("object"==typeof exports?exports:o)[t]=e[t]}}(window,(()=>(window["6788af817a27826e5817d4ac"]=function(o){window.testUtils.catchBugsInSentry((function(o){console.info("".concat("SN-2926"," Paid delivery - "),o),window.testUtils.loadInit((function(){window.BACKEND.config.constants=window.BACKEND.config.constants||{},window.BACKEND.config.constants.showPaidDelivery=!0}))}),o)},{})));;
+
+    window['6788af817a27826e5817d4ac'](params);
+  })
+        ({
+          codeExperiment: "paid-delivery",
+          codeVariant: "stable",
+          pageType: "CATEGORY_4",
+          uiExperience: "MOBILE",
+          currentExperimentCodes: currentCodesArray,
+          currentEnvironment: "production"
+        })
+      }
+      catch (e) {
+        console.error("paid-delivery", e);
+      }
+      try {
+        (function(params) {
+    !function(t,e){if("object"==typeof exports&&"object"==typeof module)module.exports=e();else if("function"==typeof define&&define.amd)define([],e);else{var o=e();for(var i in o)("object"==typeof exports?exports:t)[i]=o[i]}}(window,(()=>(window["67d7ed826adbb4f2d41e7900"]=function(t){window.testUtils.catchBugsInSentry((function(t){console.info("".concat("KSMCC-1290"," pet category priority merchant - "),t);var e="stable"===t.codeVariant,o={id:t.codeExperiment,variationId:t.codeVariant};e||window.testUtils.pushExperiment(o),("control"!==t.codeVariant||e)&&e&&window.testUtils.loadInit((function(){window.localStorage.setItem("ks.ab.petCategoryPriorityMerchant",JSON.stringify(!0))}))}),t)},{})));;
+
+    window['67d7ed826adbb4f2d41e7900'](params);
+  })
+        ({
+          codeExperiment: "pet-category-priority-merchant",
+          codeVariant: "stable",
+          pageType: "CATEGORY_4",
+          uiExperience: "MOBILE",
+          currentExperimentCodes: currentCodesArray,
+          currentEnvironment: "production"
+        })
+      }
+      catch (e) {
+        console.error("pet-category-priority-merchant", e);
+      }
+      try {
+        (function(params) {
+    !function(e,t){if("object"==typeof exports&&"object"==typeof module)module.exports=t();else if("function"==typeof define&&define.amd)define([],t);else{var n=t();for(var o in n)("object"==typeof exports?exports:e)[o]=n[o]}}(window,(()=>(window["681895a17256e5fe002009c5"]=function(e){window.testUtils.catchBugsInSentry((function(e){console.info("".concat("KSMCC-1592"," Magnum redesign BC test run with param - "),e),window.testUtils.loadInit((function(){window.localStorage.setItem("ks.ab.magnumRedesign",JSON.stringify("redirect-to-listing"))}))}),e)},{})));;
+
+    window['681895a17256e5fe002009c5'](params);
+  })
+        ({
+          codeExperiment: "magnum-redesign-abc-test",
+          codeVariant: "stable",
+          pageType: "CATEGORY_4",
+          uiExperience: "MOBILE",
+          currentExperimentCodes: currentCodesArray,
+          currentEnvironment: "production"
+        })
+      }
+      catch (e) {
+        console.error("magnum-redesign-abc-test", e);
+      }
+      try {
+        (function(params) {
+    !function(t,o){if("object"==typeof exports&&"object"==typeof module)module.exports=o();else if("function"==typeof define&&define.amd)define([],o);else{var e=o();for(var n in e)("object"==typeof exports?exports:t)[n]=e[n]}}(window,(()=>(window["682aa1279b5c23dd9bb8bf28"]=function(t){var o;!function(t){t.CONTROL="control",t.GROUP_B="group-b"}(o||(o={}));var e="750000000"===(window.testUtils.cookies.get("kaspi.storefront.cookie.city")||"");window.testUtils.catchBugsInSentry((function(t){var n,i="MCC-1617";console.info("".concat(i," Fast Express - "),t),"stable"===t.codeVariant&&e?(n={codeVariant:o.GROUP_B},console.info("".concat(i," initCodeVariant - "),n),n.codeVariant===o.GROUP_B&&window.testUtils.loadInit((function(){window.localStorage.setItem("ks.ab.useFastExpress",JSON.stringify(!0))}))):window.testUtils.loadInit((function(){window.localStorage.setItem("ks.ab.useFastExpress",JSON.stringify(!1))}))}),t)},{})));;
+
+    window['682aa1279b5c23dd9bb8bf28'](params);
+  })
+        ({
+          codeExperiment: "fast_express_slot",
+          codeVariant: "stable",
+          pageType: "CATEGORY_4",
+          uiExperience: "MOBILE",
+          currentExperimentCodes: currentCodesArray,
+          currentEnvironment: "production"
+        })
+      }
+      catch (e) {
+        console.error("fast_express_slot", e);
+      }
+      try {
+        (function(params) {
+    !function(o,e){if("object"==typeof exports&&"object"==typeof module)module.exports=e();else if("function"==typeof define&&define.amd)define([],e);else{var n=e();for(var t in n)("object"==typeof exports?exports:o)[t]=n[t]}}(window,(()=>(window["682eb5e66adbb4f2d41ef72e"]=function(o){window.testUtils.catchBugsInSentry((function(o){console.info("".concat("KSCORE-1161"," IMEI display date Slot run with param - "),o);var e="stable"===o.codeVariant;window.BACKEND.config.constants=window.BACKEND.config.constants||{},window.BACKEND.config.constants.imeiDisplayDate=e?"2025-05-25T10:00:00+05:00":"2025-06-25T00:00:00+05:00"}),o)},{})));;
+
+    window['682eb5e66adbb4f2d41ef72e'](params);
+  })
+        ({
+          codeExperiment: "imei-display-date",
+          codeVariant: "control",
+          pageType: "CATEGORY_4",
+          uiExperience: "MOBILE",
+          currentExperimentCodes: currentCodesArray,
+          currentEnvironment: "production"
+        })
+      }
+      catch (e) {
+        console.error("imei-display-date", e);
+      }
+

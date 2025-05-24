@@ -1,0 +1,20 @@
+<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,viewport-fit=cover"/><meta * name="robots" content="noindex,nofollow"><link rel="icon" href="https://static.cdn-kaspi.kz/kkz/onlineproducts/bundles/mybank/prod/red/ds/v2/favicon.ico"><title>red</title><script crossorigin="anonymous">window.onerror = (event, source, lineno, colno, error) => {
+        const isChrome = navigator.appVersion.match(/.*Chrome\/([0-9\.]+)/)
+        const version = isChrome ? isChrome[1] : ''
+
+        const log = { event, source, lineno, colno, error, chromeVersion: version, appVersion: navigator.appVersion, href: window.location.href, from: "Window onerror handler", errStack: error.stack }
+
+        const body = {
+          LogType: "ERROR",
+          ExtId: null,
+          Path: window.location.pathname,
+          Data: JSON.stringify(log),
+        }
+        fetch(`https://mybank.kaspi.kz/events/api/v1/Red/Add-short`, {
+          method: 'POST',
+          body: JSON.stringify(body),
+          headers: {
+            'Content-type': 'application/json; charset=utf-8'
+          },
+        })
+      }</script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script defer="defer" src="https://static.cdn-kaspi.kz/kkz/onlineproducts/bundles/mybank/prod/red/ds/v2/chunk-vendors.9d0dd673.js" type="module"></script><script defer="defer" src="https://static.cdn-kaspi.kz/kkz/onlineproducts/bundles/mybank/prod/red/ds/v2/app.9d0dd673.js" type="module"></script><link href="https://static.cdn-kaspi.kz/kkz/onlineproducts/bundles/mybank/prod/red/ds/v2/css/chunk-vendors.d7463305.css" rel="stylesheet"><link href="https://static.cdn-kaspi.kz/kkz/onlineproducts/bundles/mybank/prod/red/ds/v2/css/app.5a94deec.css" rel="stylesheet"><script defer="defer" src="https://static.cdn-kaspi.kz/kkz/onlineproducts/bundles/mybank/prod/red/ds/v2/chunk-vendors.5fba219c.js" nomodule></script><script defer="defer" src="https://static.cdn-kaspi.kz/kkz/onlineproducts/bundles/mybank/prod/red/ds/v2/app.5fba219c.js" nomodule></script></head><body><noscript><strong>We're sorry but red doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
